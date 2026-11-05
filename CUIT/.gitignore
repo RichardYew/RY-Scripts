@@ -1,0 +1,7 @@
+output/
+
+# 本地凭证与查询结果，不要提交
+cookie.txt
+search_*.json
+teacher_*.json
+__pycache__/
