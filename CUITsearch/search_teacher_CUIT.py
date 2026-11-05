@@ -162,7 +162,7 @@ if __name__ == "__main__":
     print(f"\n共拿到 {len(records)} 条")
     print(json.dumps(records, ensure_ascii=False, indent=2))
 
-    out_file = os.path.join(BASE_DIR, f"teacher_{name}.json")
+    out_file = os.path.join(BASE_DIR, f"output/teacher_{name}.json")
     with open(out_file, "w", encoding="utf-8") as f:
         json.dump(records, f, ensure_ascii=False, indent=2)
     print(f"\n已保存到 {out_file}")
